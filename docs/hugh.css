@@ -1,5 +1,5 @@
 body{
-  background-color:red; 
+  background-color:#4b624b; 
   font-family:'Comic Sans MS',  'Comic Sans', 'chalkduster';
 }
 
@@ -26,7 +26,7 @@ height:150px;
         background-color: orange;
         width:20%;
         text-align:center;
-         transform: rotate(-0.02turn);
+        transform:translateY(200px)skewX(1deg);
           
       }
       #column2 {
@@ -35,13 +35,14 @@ height:150px;
 background-color:yellow;
         width: 40%;
         text-align:center;
+          
          align-items:center;
       }
       #column3 {
         background-color: orange;
         width:20%;
         text-align:center;
-        transform: rotate(0.02turn);
+        transform:translateY(-100px)skewX(-1deg);
 }
      
       h2 {
@@ -77,7 +78,12 @@ a:hover{
 header:hover{
  /* transform: rotate(180deg); 
   background-color:blue;*/
-  transform: skew(10deg, 3deg);
+    transition: 1s;
+    transform: skewY(1deg);
+  background-color: #ccccc;
+    text-shadow:2px 2px #ff0000;
+    text-indent: 12px;
+    background-image: url("assets/bg.gif")
 }
 
 .pics{
@@ -94,7 +100,7 @@ header:hover{
    /*position:relative;
   top:10px;
  left:160px;*/
-  border: 7px solid orange;
+  border: 7px solid #5ea25e;
     transform:rotate(5deg);
   }
 
@@ -102,5 +108,5 @@ header:hover{
   /*top:10px;
  left:190px;*/
   transform:rotate(-5deg);
-  border: 7px solid orange;
+  border: 7px solid #5ea25e;
   }
